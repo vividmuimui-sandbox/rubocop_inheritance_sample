@@ -1,0 +1,10 @@
+inherit_from: ../base/.rubocop.yml
+
+inherit_mode:
+  override:
+    - AllowedNames
+
+Naming/UncommunicativeMethodParamName:
+  AllowedNames:
+    - c
+    - d

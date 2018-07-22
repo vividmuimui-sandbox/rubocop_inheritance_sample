@@ -1,0 +1,10 @@
+AllCops:
+  TargetRubyVersion: 2.5
+  Exclude:
+    - "**/vendor/**/*"
+
+Naming/VariableNumber:
+  EnforcedStyle: snake_case
+
+Layout/MultilineArrayBraceLayout:
+  EnforcedStyle: new_line

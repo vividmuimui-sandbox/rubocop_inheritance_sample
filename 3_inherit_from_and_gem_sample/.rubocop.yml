@@ -1,0 +1,5 @@
+inherit_gem:
+  dummy_gem:
+    - "config/rubocop.yml"
+
+inherit_from: ../1_inherit_from_sample/.rubocop.yml

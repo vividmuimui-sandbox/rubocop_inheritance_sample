@@ -1,0 +1,12 @@
+AllCops:
+  TargetRubyVersion: 2.5
+  Exclude:
+    - "**/vendor/**/*"
+
+# not specify Naming/VariableNumber
+# Naming/VariableNumber:
+#   EnforcedStyle: normalcase # default
+
+# not specify Layout/MultilineArrayBraceLayout
+# Layout/MultilineArrayBraceLayout:
+#   EnforcedStyle: symmetrical # default

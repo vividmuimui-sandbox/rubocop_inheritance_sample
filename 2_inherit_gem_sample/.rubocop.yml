@@ -1,0 +1,7 @@
+inherit_gem:
+  dummy_gem:
+    - "config/rubocop.yml"
+
+# override dummy_gem/config/rubocop.yml
+Layout/MultilineArrayBraceLayout:
+  EnforcedStyle: same_line
